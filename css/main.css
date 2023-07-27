@@ -27,10 +27,10 @@ html {
  * Customize the background color to match your design.
  */
 
- ::-moz-selection {
+::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
-} 
+}
 
 ::selection {
   background: #b3d4fc;
@@ -87,12 +87,12 @@ textarea {
      Browser Upgrade Prompt
      ========================================================================== */
 
-     .browserupgrade {
-      margin: 0.2em 0;
-      background: #ccc;
-      color: #000;
-      padding: 0.2em 0;
-    }
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
 
 /* ==========================================================================
    Author's custom styles
@@ -152,7 +152,8 @@ header h2 {
   color: #EEEFDA;
 }
 
-header a ,footer a{
+header a,
+footer a {
   color: #EEEFDA;
   text-transform: uppercase;
 }
@@ -262,7 +263,7 @@ p {
   font-weight: bold;
 }
 
-#Skills .list ul li{
+#Skills .list ul li {
   font-size: 1em;
 }
 
@@ -334,7 +335,7 @@ p {
   margin: 15px;
 }
 
-#work .list ul li{
+#work .list ul li {
   font-size: 1.1em;
 }
 
@@ -367,7 +368,8 @@ footer .content-wrapper {
   margin: 1px 10px;
 }
 
-.contact-section,.social{
+.contact-section,
+.social {
   margin-left: 10px;
   padding-left: 10px;
 }
@@ -508,23 +510,23 @@ footer .social-icons p {
     font-size: large;
   }
 
-    /* About style */
-    #about .half-content{
-      display: flex;
-      justify-content: space-evenly;
-      flex-direction: row;
-    }
-  
-    #about .desktop-style{
-      width: 100%;
-    }
+  /* About style */
+  #about .half-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
 
-    #about img{
-      width: 70%;
-      margin-top: 20px;
-      margin-left: 15px;
-      border: #E7E5CB solid 10px;
-    }
+  #about .desktop-style {
+    width: 100%;
+  }
+
+  #about img {
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: #E7E5CB solid 10px;
+  }
 
   /* work style */
 
@@ -532,23 +534,24 @@ footer .social-icons p {
   #work .content {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
+    align-items: center;
   }
 
 
   #work .half-width {
-    /* display: flex;
-    justify-content: space-around;
-    flex-basis: 0%; */
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 38%;
   }
 
-  #work .list ul{
+  #work .list ul {
     box-sizing: content-box;
     margin: 0;
     padding: 0;
   }
 
-  #work .list ul li{
+  #work .list ul li {
     font-size: 0.7rem;
   }
 
@@ -581,33 +584,21 @@ footer .social-icons p {
   /* Style adjustments for desktop */
 
   /* About style */
-  #about .half-content{
+  #about .half-content {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
   }
 
-  #about .desktop-style{
+  #about .desktop-style {
     width: 600px;
   }
 
-  #about img{
+  #about img {
     width: 70%;
     margin-top: 20px;
     margin-left: 15px;
     border: #E7E5CB solid 10px;
-  }
-
-  /* work style */
-
-  #work .list ul {
-    margin: 10px;
-  }
-  
-  #work .list ul li{
-    font-size: 16px;
-    /* margin-left: 10px; */
-    text-align: center;
   }
 
   /* footer style*/
